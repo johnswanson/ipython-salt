@@ -7,7 +7,7 @@ DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
 wget -O - https://bootstrap.saltstack.com | sh
 
 # move configuration into place
-ln -s $DIR/etc/salt /etc/salt/minion
+ln -sf $DIR/etc/salt/minion /etc/salt/minion
 
 # move state files into place
 cp -a $DIR/srv/salt /srv/salt
