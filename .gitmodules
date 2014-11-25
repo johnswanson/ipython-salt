@@ -1,9 +1,9 @@
-[submodule "srv/salt/nginx-proxy-formula"]
+[submodule "srv/salt/repos/nginx-proxy-formula"]
 	path = srv/salt/repos/nginx-proxy-formula
 	url = git://github.com/johnswanson/nginx-proxy-formula.git
-[submodule "srv/salt/ipython-notebook-formula"]
+[submodule "srv/salt/repos/ipython-notebook-formula"]
 	path = srv/salt/repos/ipython-notebook-formula
 	url = git://github.com/johnswanson/ipython-notebook-formula.git
-[submodule "srv/salt/anaconda-formula"]
+[submodule "srv/salt/repos/anaconda-formula"]
 	path = srv/salt/repos/anaconda-formula
 	url = git://github.com/johnswanson/anaconda-formula.git
