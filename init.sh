@@ -10,6 +10,6 @@ wget -O - https://bootstrap.saltstack.com | sh
 ln -s $DIR/etc/salt /etc/salt/minion
 
 # move state files into place
-ln -s $DIR/srv/salt /srv/salt
+cp -a $DIR/srv/salt /srv/salt
 
 salt-call --local state.highstate
