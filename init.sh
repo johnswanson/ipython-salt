@@ -11,3 +11,4 @@ ln -s $DIR/etc/salt /etc/salt/minion
 
 ln -s $DIR/srv/salt /srv/salt
 
+salt-call --local state.highstate
