@@ -7,6 +7,6 @@
 [submodule "srv/salt/repos/nginx-proxy-formula"]
 	path = srv/salt/repos/nginx-proxy-formula
 	url = git://github.com/johnswanson/nginx-proxy-formula.git
-[submodule "srv/salt/repos/nginx-formula"]
-	path = srv/salt/repos/nginx-formula
-	url = git://github.com/johnswanson/nginx-formula.git
+# [submodule "srv/salt/repos/nginx-formula"]
+  # path = srv/salt/repos/nginx-formula
+  # url = git://github.com/johnswanson/nginx-formula.git
